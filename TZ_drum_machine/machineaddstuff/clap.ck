@@ -1,0 +1,43 @@
+second => dur T;
+SndBuf clap => Gain master => PRCRev r => dac;
+0.05 => r.mix;
+me.dir()+"/audio/clap_01.wav" => clap.read;
+while (true){   
+    0.3 => r.gain;
+    0 => clap.pos;
+    0.25::T => now;
+    0 => clap.pos;
+    0.25::T => now;
+    0 => clap.pos;
+    0.25::T => now;
+    0 => clap.pos;
+    0.15 => r.gain;
+    T * 0.25/3 => now;
+    0 => clap.pos;
+    T * 0.25/3 => now;
+    0 => clap.pos;
+    T * 0.25/3 => now;
+    0.3 => r.gain;
+    0 => clap.pos;
+    0.25::T => now;
+    0 => clap.pos;
+    0 => clap.pos;
+    0.15 => r.gain;
+    T * 0.25/3 => now;
+    0 => clap.pos;
+    T * 0.25/3 => now;
+    0 => clap.pos;
+    T * 0.25/3 => now;
+    0.3 => r.gain;
+    0 => clap.pos;
+    0.25::T => now;
+    0 => clap.pos;
+    0 => clap.pos;
+    0.15 => r.gain;
+    T * 0.25/3 => now;
+    0 => clap.pos;
+    T * 0.25/3 => now;
+    0 => clap.pos;
+    T * 0.25/3 => now;
+    
+}
