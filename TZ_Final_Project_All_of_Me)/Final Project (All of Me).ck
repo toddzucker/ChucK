@@ -1,7 +1,7 @@
-//Machine.add(me.dir() +"/machineaddstuff/computermusfinaldrums.ck");
-//Machine.add(me.dir() +"/machineaddstuff/computermusfinalpiano.ck");
-//Machine.add(me.dir() +"/machineaddstuff/computermusfinalbass.ck");
-//Machine.add(me.dir() +"/machineaddstuff/computermusfinalrimshot.ck");
+Machine.add(me.dir() +"/machineaddstuff/computermusfinaldrums.ck");
+Machine.add(me.dir() +"/machineaddstuff/computermusfinalpiano.ck");
+Machine.add(me.dir() +"/machineaddstuff/computermusfinalbass.ck");
+Machine.add(me.dir() +"/machineaddstuff/computermusfinalrimshot.ck");
 
 SqrOsc s1 => PRCRev reverb => dac;
 SqrOsc s2 => reverb => dac;
